@@ -26,8 +26,17 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Grant Gradle execute permission
+      - name: Make gradlew executable
         run: chmod +x gradlew
+
+      - name: Fix gradlew line endings
+        run: sed -i 's/\r//' gradlew
+
+      - name: Download Gradle wrapper jar
+        run: |
+          mkdir -p gradle/wrapper
+          curl -sL "https://github.com/gradle/gradle/raw/v8.5.0/gradle/wrapper/gradle-wrapper.jar" \
+            -o gradle/wrapper/gradle-wrapper.jar
 
       - name: Cache Gradle
         uses: actions/cache@v4
