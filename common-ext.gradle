@@ -1,4 +1,3 @@
-// Common extension build logic – applied via apply from in each module
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
@@ -14,10 +13,9 @@ android {
             archivesName = extName.toLowerCase().replace(' ', '_')
         }
         manifestPlaceholders = [
-            appName: "Tachi: $extName",
+            appName : "Tachi: $extName",
             extClass: extClass,
-            extFactory: extFactory ?: '',
-            nsfw: project.hasProperty('isNsfw') ? 1 : 0,
+            nsfw    : project.hasProperty('isNsfw') ? 1 : 0,
         ]
     }
 
