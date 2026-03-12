@@ -1,0 +1,1682 @@
+[
+  {
+    "name": "Mangakakalot",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangakakalot",
+    "apk": "tachiyomi-en-mangakakalot-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "144930698",
+        "lang": "en",
+        "name": "Mangakakalot",
+        "baseUrl": "https://www.mangakakalot.gg",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaBats",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangabats",
+    "apk": "tachiyomi-en-mangabats-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "245879414",
+        "lang": "en",
+        "name": "MangaBats",
+        "baseUrl": "https://www.mangabats.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaRead",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangaread",
+    "apk": "tachiyomi-en-mangaread-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1674835700",
+        "lang": "en",
+        "name": "MangaRead",
+        "baseUrl": "https://www.mangaread.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "XBato",
+    "pkg": "eu.kanade.tachiyomi.extension.en.xbato",
+    "apk": "tachiyomi-en-xbato-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1412684280",
+        "lang": "en",
+        "name": "XBato",
+        "baseUrl": "https://xbato.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Comick",
+    "pkg": "eu.kanade.tachiyomi.extension.en.comick",
+    "apk": "tachiyomi-en-comick-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1864738233",
+        "lang": "en",
+        "name": "Comick",
+        "baseUrl": "https://comick.io",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "FlameScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.flamescans",
+    "apk": "tachiyomi-en-flamescans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1630862282",
+        "lang": "en",
+        "name": "FlameScans",
+        "baseUrl": "https://flamescans.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaDex",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangadex",
+    "apk": "tachiyomi-en-mangadex-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1330858010",
+        "lang": "en",
+        "name": "MangaDex",
+        "baseUrl": "https://mangadex.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaSee",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangasee",
+    "apk": "tachiyomi-en-mangasee-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "36115666",
+        "lang": "en",
+        "name": "MangaSee",
+        "baseUrl": "https://mangasee123.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaPark",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangapark",
+    "apk": "tachiyomi-en-mangapark-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "735822546",
+        "lang": "en",
+        "name": "MangaPark",
+        "baseUrl": "https://mangapark.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaHere",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangahere",
+    "apk": "tachiyomi-en-mangahere-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "152613968",
+        "lang": "en",
+        "name": "MangaHere",
+        "baseUrl": "https://www.mangahere.cc",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "FanFox",
+    "pkg": "eu.kanade.tachiyomi.extension.en.fanfox",
+    "apk": "tachiyomi-en-fanfox-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "734563136",
+        "lang": "en",
+        "name": "FanFox",
+        "baseUrl": "https://fanfox.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaTown",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangatown",
+    "apk": "tachiyomi-en-mangatown-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1438085181",
+        "lang": "en",
+        "name": "MangaTown",
+        "baseUrl": "https://www.mangatown.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Manganato",
+    "pkg": "eu.kanade.tachiyomi.extension.en.manganato",
+    "apk": "tachiyomi-en-manganato-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "394656184",
+        "lang": "en",
+        "name": "Manganato",
+        "baseUrl": "https://manganato.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ReadM",
+    "pkg": "eu.kanade.tachiyomi.extension.en.readm",
+    "apk": "tachiyomi-en-readm-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "136586452",
+        "lang": "en",
+        "name": "ReadM",
+        "baseUrl": "https://readm.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "AsuraScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.asurascans",
+    "apk": "tachiyomi-en-asurascans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "690772156",
+        "lang": "en",
+        "name": "AsuraScans",
+        "baseUrl": "https://asuracomic.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ReaperScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.reaperscans",
+    "apk": "tachiyomi-en-reaperscans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1726288138",
+        "lang": "en",
+        "name": "ReaperScans",
+        "baseUrl": "https://reaperscans.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "LuminousScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.luminousscans",
+    "apk": "tachiyomi-en-luminousscans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "794623373",
+        "lang": "en",
+        "name": "LuminousScans",
+        "baseUrl": "https://luminousscans.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "AlphaScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.alphascans",
+    "apk": "tachiyomi-en-alphascans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1331852058",
+        "lang": "en",
+        "name": "AlphaScans",
+        "baseUrl": "https://alphascans.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ZeroScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.zeroscans",
+    "apk": "tachiyomi-en-zeroscans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1402876325",
+        "lang": "en",
+        "name": "ZeroScans",
+        "baseUrl": "https://zeroscans.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaHub",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangahub",
+    "apk": "tachiyomi-en-mangahub-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "475815318",
+        "lang": "en",
+        "name": "MangaHub",
+        "baseUrl": "https://mangahub.io",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ManhwaTop",
+    "pkg": "eu.kanade.tachiyomi.extension.en.manhwatop",
+    "apk": "tachiyomi-en-manhwatop-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "195063043",
+        "lang": "en",
+        "name": "ManhwaTop",
+        "baseUrl": "https://manhwatop.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ManhwaClan",
+    "pkg": "eu.kanade.tachiyomi.extension.en.manhwaclan",
+    "apk": "tachiyomi-en-manhwaclan-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "432660050",
+        "lang": "en",
+        "name": "ManhwaClan",
+        "baseUrl": "https://manhwaclan.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ZinManga",
+    "pkg": "eu.kanade.tachiyomi.extension.en.zinmanga",
+    "apk": "tachiyomi-en-zinmanga-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "845647586",
+        "lang": "en",
+        "name": "ZinManga",
+        "baseUrl": "https://zinmanga.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "IsekaiScan",
+    "pkg": "eu.kanade.tachiyomi.extension.en.isekaiscan",
+    "apk": "tachiyomi-en-isekaiscan-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "355991888",
+        "lang": "en",
+        "name": "IsekaiScan",
+        "baseUrl": "https://isekaiscan.top",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ManhuaPlus",
+    "pkg": "eu.kanade.tachiyomi.extension.en.manhuaplus",
+    "apk": "tachiyomi-en-manhuaplus-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "69094197",
+        "lang": "en",
+        "name": "ManhuaPlus",
+        "baseUrl": "https://manhuaplus.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "TCBScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.tcbscans",
+    "apk": "tachiyomi-en-tcbscans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "278756580",
+        "lang": "en",
+        "name": "TCBScans",
+        "baseUrl": "https://tcbscans.me",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "NightScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.nightscans",
+    "apk": "tachiyomi-en-nightscans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "517620229",
+        "lang": "en",
+        "name": "NightScans",
+        "baseUrl": "https://nightscans.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "VoidScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.voidscans",
+    "apk": "tachiyomi-en-voidscans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1348988003",
+        "lang": "en",
+        "name": "VoidScans",
+        "baseUrl": "https://void-scans.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaBuddy",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangabuddy",
+    "apk": "tachiyomi-en-mangabuddy-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "156546011",
+        "lang": "en",
+        "name": "MangaBuddy",
+        "baseUrl": "https://mangabuddy.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Toonily",
+    "pkg": "eu.kanade.tachiyomi.extension.en.toonily",
+    "apk": "tachiyomi-en-toonily-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "566738627",
+        "lang": "en",
+        "name": "Toonily",
+        "baseUrl": "https://toonily.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Dynasty",
+    "pkg": "eu.kanade.tachiyomi.extension.en.dynasty",
+    "apk": "tachiyomi-en-dynasty-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "225319060",
+        "lang": "en",
+        "name": "Dynasty",
+        "baseUrl": "https://dynasty-scans.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Bato",
+    "pkg": "eu.kanade.tachiyomi.extension.en.bato",
+    "apk": "tachiyomi-en-bato-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1832274506",
+        "lang": "en",
+        "name": "Bato",
+        "baseUrl": "https://bato.to",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MMScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mmscans",
+    "apk": "tachiyomi-en-mmscans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "322226760",
+        "lang": "en",
+        "name": "MMScans",
+        "baseUrl": "https://mm-scans.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaLife",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangalife",
+    "apk": "tachiyomi-en-mangalife-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "987690010",
+        "lang": "en",
+        "name": "MangaLife",
+        "baseUrl": "https://manga4life.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "HatigarmScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.hatigarmscans",
+    "apk": "tachiyomi-en-hatigarmscans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "93074991",
+        "lang": "en",
+        "name": "HatigarmScans",
+        "baseUrl": "https://hatigarmscans.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Drakeina",
+    "pkg": "eu.kanade.tachiyomi.extension.en.drakeina",
+    "apk": "tachiyomi-en-drakeina-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1455450815",
+        "lang": "en",
+        "name": "Drakeina",
+        "baseUrl": "https://drakeina.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaPill",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangapill",
+    "apk": "tachiyomi-en-mangapill-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "80954476",
+        "lang": "en",
+        "name": "MangaPill",
+        "baseUrl": "https://mangapill.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaFreak",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangafreak",
+    "apk": "tachiyomi-en-mangafreak-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "626727563",
+        "lang": "en",
+        "name": "MangaFreak",
+        "baseUrl": "https://w15.mangafreak.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ReadManhwa",
+    "pkg": "eu.kanade.tachiyomi.extension.en.readmanhwa",
+    "apk": "tachiyomi-en-readmanhwa-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1616378851",
+        "lang": "en",
+        "name": "ReadManhwa",
+        "baseUrl": "https://readmanhwa.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaOwl",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangaowl",
+    "apk": "tachiyomi-en-mangaowl-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1775207366",
+        "lang": "en",
+        "name": "MangaOwl",
+        "baseUrl": "https://mangaowl.to",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaInn",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangainn",
+    "apk": "tachiyomi-en-mangainn-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1279724215",
+        "lang": "en",
+        "name": "MangaInn",
+        "baseUrl": "https://www.mangainn.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaGo",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangago",
+    "apk": "tachiyomi-en-mangago-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1149714766",
+        "lang": "en",
+        "name": "MangaGo",
+        "baseUrl": "https://www.mangago.me",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "NetTruyen",
+    "pkg": "eu.kanade.tachiyomi.extension.en.nettruyen",
+    "apk": "tachiyomi-en-nettruyen-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "5237166",
+        "lang": "en",
+        "name": "NetTruyen",
+        "baseUrl": "https://nettruyen.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ComicExtra",
+    "pkg": "eu.kanade.tachiyomi.extension.en.comicextra",
+    "apk": "tachiyomi-en-comicextra-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1203351109",
+        "lang": "en",
+        "name": "ComicExtra",
+        "baseUrl": "https://comicextra.me",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaStream",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangastream",
+    "apk": "tachiyomi-en-mangastream-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "649987248",
+        "lang": "en",
+        "name": "MangaStream",
+        "baseUrl": "https://readms.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Tapas",
+    "pkg": "eu.kanade.tachiyomi.extension.en.tapas",
+    "apk": "tachiyomi-en-tapas-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1260410579",
+        "lang": "en",
+        "name": "Tapas",
+        "baseUrl": "https://tapas.io",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Webtoons",
+    "pkg": "eu.kanade.tachiyomi.extension.en.webtoons",
+    "apk": "tachiyomi-en-webtoons-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1059555264",
+        "lang": "en",
+        "name": "Webtoons",
+        "baseUrl": "https://www.webtoons.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaPlus",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangaplus",
+    "apk": "tachiyomi-en-mangaplus-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1962250957",
+        "lang": "en",
+        "name": "MangaPlus",
+        "baseUrl": "https://mangaplus.shueisha.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Manhwa18",
+    "pkg": "eu.kanade.tachiyomi.extension.en.manhwa18",
+    "apk": "tachiyomi-en-manhwa18-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "133192613",
+        "lang": "en",
+        "name": "Manhwa18",
+        "baseUrl": "https://manhwa18.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "GigaScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.gigascans",
+    "apk": "tachiyomi-en-gigascans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1317434134",
+        "lang": "en",
+        "name": "GigaScans",
+        "baseUrl": "https://gigascans.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "SuryaScans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.suryascans",
+    "apk": "tachiyomi-en-suryascans-v1.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1594220142",
+        "lang": "en",
+        "name": "SuryaScans",
+        "baseUrl": "https://suryascans.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "AzoraMoon",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.azoramoon",
+    "apk": "tachiyomi-ar-azoramoon-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "755180782",
+        "lang": "ar",
+        "name": "AzoraMoon",
+        "baseUrl": "https://azoramoon.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaSwat",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangaswat",
+    "apk": "tachiyomi-ar-mangaswat-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "116887002",
+        "lang": "ar",
+        "name": "MangaSwat",
+        "baseUrl": "https://mangaswat.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaLek",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangalek",
+    "apk": "tachiyomi-ar-mangalek-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "53928935",
+        "lang": "ar",
+        "name": "MangaLek",
+        "baseUrl": "https://mangalek.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Manga3asq",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.manga3asq",
+    "apk": "tachiyomi-ar-manga3asq-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1065662405",
+        "lang": "ar",
+        "name": "Manga3asq",
+        "baseUrl": "https://3asq.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "AresManga",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.aresmanga",
+    "apk": "tachiyomi-ar-aresmanga-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1558360052",
+        "lang": "ar",
+        "name": "AresManga",
+        "baseUrl": "https://aresmanga.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "GManga",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.gmanga",
+    "apk": "tachiyomi-ar-gmanga-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1413748056",
+        "lang": "ar",
+        "name": "GManga",
+        "baseUrl": "https://gmanga.me",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaArab",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangaarab",
+    "apk": "tachiyomi-ar-mangaarab-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "139449396",
+        "lang": "ar",
+        "name": "MangaArab",
+        "baseUrl": "https://mangaarab.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ArabianScan",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.arabianscan",
+    "apk": "tachiyomi-ar-arabianscan-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "33374638",
+        "lang": "ar",
+        "name": "ArabianScan",
+        "baseUrl": "https://arabianscan.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "TeamX",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.teamx",
+    "apk": "tachiyomi-ar-teamx-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1905203333",
+        "lang": "ar",
+        "name": "TeamX",
+        "baseUrl": "https://teamxmanga.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "GalaxyManga",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.galaxymanga",
+    "apk": "tachiyomi-ar-galaxymanga-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "694308334",
+        "lang": "ar",
+        "name": "GalaxyManga",
+        "baseUrl": "https://galaxymanga.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaInkAR",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangaink_ar",
+    "apk": "tachiyomi-ar-mangaink_ar-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1406610301",
+        "lang": "ar",
+        "name": "MangaInkAR",
+        "baseUrl": "https://mangaink.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaGTR",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangagtr",
+    "apk": "tachiyomi-ar-mangagtr-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1505582085",
+        "lang": "ar",
+        "name": "MangaGTR",
+        "baseUrl": "https://mangagtr.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "HizoManga",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.hizomanga",
+    "apk": "tachiyomi-ar-hizomanga-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1735327357",
+        "lang": "ar",
+        "name": "HizoManga",
+        "baseUrl": "https://hizomanga.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "OzulScans",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.ozulscans",
+    "apk": "tachiyomi-ar-ozulscans-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "210726531",
+        "lang": "ar",
+        "name": "OzulScans",
+        "baseUrl": "https://ozulscans.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "PhenixScans",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.phenixscans",
+    "apk": "tachiyomi-ar-phenixscans-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "846759447",
+        "lang": "ar",
+        "name": "PhenixScans",
+        "baseUrl": "https://phenixscans.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "TajManga",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.tajmanga",
+    "apk": "tachiyomi-ar-tajmanga-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "295015590",
+        "lang": "ar",
+        "name": "TajManga",
+        "baseUrl": "https://tajmanga.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaJY",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangajy",
+    "apk": "tachiyomi-ar-mangajy-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1944620455",
+        "lang": "ar",
+        "name": "MangaJY",
+        "baseUrl": "https://mangajy.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Scan4Arab",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.scan4arab",
+    "apk": "tachiyomi-ar-scan4arab-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "460914098",
+        "lang": "ar",
+        "name": "Scan4Arab",
+        "baseUrl": "https://scan4arab.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ToonsGate",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.toonsgate",
+    "apk": "tachiyomi-ar-toonsgate-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "990971110",
+        "lang": "ar",
+        "name": "ToonsGate",
+        "baseUrl": "https://toonsgate.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaMasr",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangamasr",
+    "apk": "tachiyomi-ar-mangamasr-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1326860920",
+        "lang": "ar",
+        "name": "MangaMasr",
+        "baseUrl": "https://mangamasr.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaOr",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangaor",
+    "apk": "tachiyomi-ar-mangaor-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "418732215",
+        "lang": "ar",
+        "name": "MangaOr",
+        "baseUrl": "https://mangaor.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "AlwatanManga",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.alwatanmanga",
+    "apk": "tachiyomi-ar-alwatanmanga-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1793842463",
+        "lang": "ar",
+        "name": "AlwatanManga",
+        "baseUrl": "https://alwatanmanga.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaSky",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangasky",
+    "apk": "tachiyomi-ar-mangasky-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1692509337",
+        "lang": "ar",
+        "name": "MangaSky",
+        "baseUrl": "https://mangasky.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaFlame",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangaflame",
+    "apk": "tachiyomi-ar-mangaflame-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "169481740",
+        "lang": "ar",
+        "name": "MangaFlame",
+        "baseUrl": "https://mangaflame.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "StarManga",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.starmanga",
+    "apk": "tachiyomi-ar-starmanga-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "608142859",
+        "lang": "ar",
+        "name": "StarManga",
+        "baseUrl": "https://starmanga.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "KonohaManga",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.konoha",
+    "apk": "tachiyomi-ar-konoha-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "977937128",
+        "lang": "ar",
+        "name": "KonohaManga",
+        "baseUrl": "https://konohamanga.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "HamlaManga",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.hamlamanga",
+    "apk": "tachiyomi-ar-hamlamanga-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1946460036",
+        "lang": "ar",
+        "name": "HamlaManga",
+        "baseUrl": "https://hamlamanga.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaSnow",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangasnow",
+    "apk": "tachiyomi-ar-mangasnow-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "568010630",
+        "lang": "ar",
+        "name": "MangaSnow",
+        "baseUrl": "https://mangasnow.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaTak",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangatak",
+    "apk": "tachiyomi-ar-mangatak-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "770506025",
+        "lang": "ar",
+        "name": "MangaTak",
+        "baseUrl": "https://mangatak.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ElarabScans",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.elarabscans",
+    "apk": "tachiyomi-ar-elarabscans-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1340173220",
+        "lang": "ar",
+        "name": "ElarabScans",
+        "baseUrl": "https://elarab-scans.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "DonghuaAR",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.donghuaar",
+    "apk": "tachiyomi-ar-donghuaar-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1642283069",
+        "lang": "ar",
+        "name": "DonghuaAR",
+        "baseUrl": "https://donghua-ar.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "MangaHolics",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.mangaholics",
+    "apk": "tachiyomi-ar-mangaholics-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "171751623",
+        "lang": "ar",
+        "name": "MangaHolics",
+        "baseUrl": "https://mangaholics.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "ArabSeed",
+    "pkg": "eu.kanade.tachiyomi.extension.ar.arabseed",
+    "apk": "tachiyomi-ar-arabseed-v1.1.apk",
+    "lang": "ar",
+    "code": 1,
+    "version": "1.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": "1880593693",
+        "lang": "ar",
+        "name": "ArabSeed",
+        "baseUrl": "https://arabseed.ws",
+        "versionId": 1
+      }
+    ]
+  }
+]

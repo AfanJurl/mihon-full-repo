@@ -1,0 +1,55 @@
+// Common extension build logic – applied via apply from in each module
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdk
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdk
+        targetSdkVersion rootProject.ext.targetSdk
+        versionCode extVersionCode
+        versionName extVersionName
+        base {
+            archivesName = extName.toLowerCase().replace(' ', '_')
+        }
+        manifestPlaceholders = [
+            appName: "Tachi: $extName",
+            extClass: extClass,
+            extFactory: extFactory ?: '',
+            nsfw: project.hasProperty('isNsfw') ? 1 : 0,
+        ]
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+        }
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compileOnly "com.github.mihonapp.extensions-lib:extensions-lib:${rootProject.ext.extLibVersion}.${rootProject.ext.extLibRevision}"
+    compileOnly 'com.squareup.okhttp3:okhttp:4.12.0'
+    compileOnly 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2'
+    compileOnly 'org.jsoup:jsoup:1.17.2'
+}
