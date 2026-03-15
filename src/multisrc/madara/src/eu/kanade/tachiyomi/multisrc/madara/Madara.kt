@@ -162,7 +162,7 @@ abstract class Madara(
         Genre("Tragedy", "tragedy"), Genre("Webtoons", "webtoons"),
     )
 
-    class Genre(val name: String, val id: String) : Filter.CheckBox(name)
+    class Genre(val displayName: String, val id: String) : Filter.CheckBox(displayName)
     class GenreFilter(genres: List<Genre>) : Filter.Group<Genre>("Genre", genres)
     open class StatusFilter : Filter.Select<String>(
         "Status", arrayOf("Any", "Ongoing", "Completed", "Hiatus", "Cancelled"),
