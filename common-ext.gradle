@@ -1,9 +1,12 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
+def _lang = project.ext.extLang
+def _pkg  = project.ext.extPkg
+
 android {
     compileSdkVersion rootProject.ext.compileSdk
-    namespace "eu.kanade.tachiyomi.extension.${extLang}.${extPkg}"
+    namespace "eu.kanade.tachiyomi.extension.${_lang}.${_pkg}"
 
     defaultConfig {
         minSdkVersion rootProject.ext.minSdk
