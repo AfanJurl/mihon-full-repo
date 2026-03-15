@@ -3,6 +3,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion rootProject.ext.compileSdk
+    namespace "eu.kanade.tachiyomi.extension.${project.name}"
 
     defaultConfig {
         minSdkVersion rootProject.ext.minSdk
