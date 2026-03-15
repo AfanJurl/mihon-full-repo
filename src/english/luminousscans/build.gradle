@@ -2,7 +2,8 @@ ext {
     extName = 'LuminousScans'
     extClass = '.LuminousScans'
     extVersionCode = 1
-    extVersionName = }
+    extVersionName = 1.1
+}
 
 android {
     namespace 'eu.kanade.tachiyomi.extension.en.luminousscans'
