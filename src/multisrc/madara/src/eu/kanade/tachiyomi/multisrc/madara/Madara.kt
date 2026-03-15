@@ -5,7 +5,6 @@ import eu.kanade.tachiyomi.network.POST
 import eu.kanade.tachiyomi.network.interceptor.rateLimit
 import eu.kanade.tachiyomi.source.model.Filter
 import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.model.MangasPage
 import eu.kanade.tachiyomi.source.model.Page
 import eu.kanade.tachiyomi.source.model.SChapter
 import eu.kanade.tachiyomi.source.model.SManga
@@ -14,7 +13,6 @@ import okhttp3.FormBody
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import okhttp3.Response
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import java.text.SimpleDateFormat
@@ -29,27 +27,24 @@ abstract class Madara(
 ) : ParsedHttpSource() {
 
     override val supportsLatest = true
+    open val mangaSubString = "manga/"
 
     override val client: OkHttpClient = network.cloudflareClient.newBuilder()
         .rateLimit(3, 1, TimeUnit.SECONDS)
         .connectTimeout(30, TimeUnit.SECONDS)
         .readTimeout(30, TimeUnit.SECONDS)
         .addInterceptor { chain ->
-            val request = chain.request().newBuilder()
-                .addHeader("User-Agent", UA)
-                .addHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
-                .addHeader("Accept-Language", "en-US,en;q=0.5")
-                .addHeader("Referer", baseUrl)
-                .build()
-            chain.proceed(request)
+            chain.proceed(
+                chain.request().newBuilder()
+                    .addHeader("User-Agent", UA)
+                    .addHeader("Referer", baseUrl)
+                    .build()
+            )
         }
         .build()
 
-    open val popularMangaUrlSuffix = "?m_orderby=views"
-    open val mangaSubString = "manga/"
-
     override fun popularMangaRequest(page: Int): Request =
-        GET("$baseUrl/${mangaSubString}${if (page > 1) "page/$page/" else ""}$popularMangaUrlSuffix", headers)
+        GET("$baseUrl/${mangaSubString}${if (page > 1) "page/$page/" else ""}?m_orderby=views", headers)
 
     override fun popularMangaSelector() = "div.page-item-detail.manga"
 
@@ -81,9 +76,8 @@ abstract class Madara(
                 if (page > 1) addPathSegments("page/$page/")
                 filters.forEach { filter ->
                     when (filter) {
-                        is GenreFilter -> filter.state.filter { it.state }.forEach {
-                            addQueryParameter("genre[]", it.id)
-                        }
+                        is GenreFilter -> filter.state.filter { it.state }
+                            .forEach { addQueryParameter("genre[]", it.id) }
                         is StatusFilter -> if (filter.state != 0)
                             addQueryParameter("status", filter.toUriPart())
                         is OrderByFilter -> if (filter.state != 0)
@@ -122,8 +116,7 @@ abstract class Madara(
     override fun chapterListRequest(manga: SManga): Request {
         val mangaId = manga.url.trimEnd('/').substringAfterLast('/')
         return POST(
-            "$baseUrl/wp-admin/admin-ajax.php",
-            headers,
+            "$baseUrl/wp-admin/admin-ajax.php", headers,
             FormBody.Builder()
                 .add("action", "manga_get_chapters")
                 .add("manga", mangaId)
@@ -139,15 +132,16 @@ abstract class Madara(
             name = it.text()
         }
         date_upload = try {
-            dateFormat.parse(element.select("span.chapter-release-date i").text().trim())?.time ?: 0L
+            dateFormat.parse(
+                element.select("span.chapter-release-date i").text().trim()
+            )?.time ?: 0L
         } catch (_: Exception) { 0L }
     }
 
-    override fun pageListParse(document: Document): List<Page> {
-        return document.select("div.page-break img, div.reading-content img").mapIndexed { i, img ->
+    override fun pageListParse(document: Document): List<Page> =
+        document.select("div.page-break img, div.reading-content img").mapIndexed { i, img ->
             Page(i, "", img.attr("data-src").ifEmpty { img.attr("src") }.trim())
         }
-    }
 
     override fun imageUrlParse(document: Document) = ""
 
@@ -162,10 +156,9 @@ abstract class Madara(
         Genre("Isekai", "isekai"), Genre("Manhwa", "manhwa"),
         Genre("Manhua", "manhua"), Genre("Martial Arts", "martial-arts"),
         Genre("Mystery", "mystery"), Genre("Romance", "romance"),
-        Genre("School Life", "school-life"), Genre("Sci-fi", "sci-fi"),
-        Genre("Seinen", "seinen"), Genre("Shoujo", "shoujo"),
-        Genre("Shounen", "shounen"), Genre("Slice of Life", "slice-of-life"),
-        Genre("Sports", "sports"), Genre("Supernatural", "supernatural"),
+        Genre("Sci-fi", "sci-fi"), Genre("Seinen", "seinen"),
+        Genre("Shoujo", "shoujo"), Genre("Shounen", "shounen"),
+        Genre("Slice of Life", "slice-of-life"), Genre("Supernatural", "supernatural"),
         Genre("Tragedy", "tragedy"), Genre("Webtoons", "webtoons"),
     )
 
