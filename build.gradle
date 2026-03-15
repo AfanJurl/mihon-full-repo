@@ -3,7 +3,6 @@ buildscript {
         compileSdk = 34
         minSdk = 21
         targetSdk = 34
-        extLibVersion = '1.4'
         kotlinVersion = '1.9.22'
     }
     repositories {
@@ -18,6 +17,9 @@ buildscript {
 }
 
 allprojects {
+    configurations.all {
+        resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    }
     repositories {
         google()
         mavenCentral()
