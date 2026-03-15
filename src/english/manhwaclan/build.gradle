@@ -1,12 +1,10 @@
 ext {
     extName = 'ManhwaClan'
     extClass = '.ManhwaClan'
+    extLang = 'en'
+    extPkg = 'manhwaclan'
     extVersionCode = 1
     extVersionName = "1.1"
-}
-
-android {
-    namespace 'eu.kanade.tachiyomi.extension.en.manhwaclan'
 }
 
 apply from: rootProject.file('common-ext.gradle')
