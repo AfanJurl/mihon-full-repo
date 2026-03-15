@@ -1,12 +1,11 @@
 ext {
     extName = 'Manhwa18'
     extClass = '.Manhwa18'
+    extLang = 'en'
+    extPkg = 'manhwa18'
+    isNsfw = true
     extVersionCode = 1
     extVersionName = "1.1"
-}
-
-android {
-    namespace 'eu.kanade.tachiyomi.extension.en.manhwa18'
 }
 
 apply from: rootProject.file('common-ext.gradle')
