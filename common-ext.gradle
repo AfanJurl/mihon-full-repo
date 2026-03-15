@@ -54,4 +54,5 @@ dependencies {
     compileOnly 'com.squareup.okhttp3:okhttp:4.12.0'
     compileOnly 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2'
     compileOnly 'org.jsoup:jsoup:1.17.2'
+    compileOnly project(':src:multisrc:madara')
 }
