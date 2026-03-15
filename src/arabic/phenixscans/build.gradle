@@ -1,0 +1,10 @@
+ext {
+    extName = 'PhenixScans'
+    extClass = '.PhenixScans'
+    extLang = 'ar'
+    extPkg = 'phenixscans'
+    extVersionCode = 1
+    extVersionName = "1.1"
+}
+
+apply from: rootProject.file('common-ext.gradle')
