@@ -1,0 +1,10 @@
+ext {
+    extName = 'ArabianScan'
+    extClass = '.ArabianScan'
+    extLang = 'ar'
+    extPkg = 'arabianscan'
+    extVersionCode = 1
+    extVersionName = "1.1"
+}
+
+apply from: rootProject.file('common-ext.gradle')
