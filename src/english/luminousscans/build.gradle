@@ -9,4 +9,4 @@ android {
     namespace 'eu.kanade.tachiyomi.extension.en.luminousscans'
 }
 
-apply from: rootProject.file('common-ext.gradle'))
+apply from: rootProject.file('common-ext.gradle')
