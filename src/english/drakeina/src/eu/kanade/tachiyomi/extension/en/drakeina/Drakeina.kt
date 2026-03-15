@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.extension.en.asurascans
+package eu.kanade.tachiyomi.extension.en.drakeina
 
 import eu.kanade.tachiyomi.multisrc.madara.Madara
 import java.text.SimpleDateFormat
 import java.util.Locale
 
-class AsuraScans : Madara("AsuraScans", "https://asuracomic.net", "en",
+class Drakeina : Madara("Drakeina", "https://drakeina.com", "en",
     SimpleDateFormat("MMMM dd, yyyy", Locale.US))
