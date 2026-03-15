@@ -6,7 +6,7 @@ ext {
 }
 
 android {
-    namespace 'eu.kanade.tachiyomi.extension.en.SOURCEID'
+    namespace 'eu.kanade.tachiyomi.extension.ar.alwatanmanga'
 }
 
 apply from: rootProject.file('common-ext.gradle')
