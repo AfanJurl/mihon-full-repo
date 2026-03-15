@@ -1,12 +1,10 @@
 ext {
     extName = 'MangaHub'
     extClass = '.MangaHub'
+    extLang = 'en'
+    extPkg = 'mangahub'
     extVersionCode = 1
     extVersionName = "1.1"
-}
-
-android {
-    namespace 'eu.kanade.tachiyomi.extension.en.mangahub'
 }
 
 apply from: rootProject.file('common-ext.gradle')
