@@ -1,12 +1,10 @@
 ext {
     extName = 'GigaScans'
     extClass = '.GigaScans'
+    extLang = 'en'
+    extPkg = 'gigascans'
     extVersionCode = 1
     extVersionName = "1.1"
-}
-
-android {
-    namespace 'eu.kanade.tachiyomi.extension.en.gigascans'
 }
 
 apply from: rootProject.file('common-ext.gradle')
