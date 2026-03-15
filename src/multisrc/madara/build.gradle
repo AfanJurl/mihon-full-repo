@@ -3,13 +3,26 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion rootProject.ext.compileSdk
-    defaultConfig { minSdkVersion rootProject.ext.minSdk }
+    namespace 'eu.kanade.tachiyomi.multisrc.madara'
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdk
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
-    kotlinOptions { jvmTarget = '17' }
-    sourceSets { main { java.srcDirs = ['src'] } }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+        }
+    }
 }
 
 dependencies {
