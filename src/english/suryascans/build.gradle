@@ -1,12 +1,10 @@
 ext {
     extName = 'SuryaScans'
     extClass = '.SuryaScans'
+    extLang = 'en'
+    extPkg = 'suryascans'
     extVersionCode = 1
     extVersionName = "1.1"
-}
-
-android {
-    namespace 'eu.kanade.tachiyomi.extension.en.suryascans'
 }
 
 apply from: rootProject.file('common-ext.gradle')
