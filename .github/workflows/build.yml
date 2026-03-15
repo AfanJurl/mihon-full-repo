@@ -32,14 +32,9 @@ jobs:
           unzip -q gradle.zip -d /opt/gradle
           echo "/opt/gradle/gradle-8.5/bin" >> $GITHUB_PATH
 
-      - name: Generate Gradle wrapper
-        run: |
-          gradle wrapper --gradle-version=8.5 --distribution-type=bin
-          chmod +x gradlew
-
       - name: Build all APKs
         run: |
-          ./gradlew assembleRelease \
+          gradle assembleRelease \
             --parallel \
             --no-daemon \
             --stacktrace \
