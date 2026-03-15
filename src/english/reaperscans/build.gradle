@@ -1,12 +1,10 @@
 ext {
     extName = 'ReaperScans'
     extClass = '.ReaperScans'
+    extLang = 'en'
+    extPkg = 'reaperscans'
     extVersionCode = 1
     extVersionName = "1.1"
-}
-
-android {
-    namespace 'eu.kanade.tachiyomi.extension.en.reaperscans'
 }
 
 apply from: rootProject.file('common-ext.gradle')
