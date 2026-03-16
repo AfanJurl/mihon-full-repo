@@ -41,21 +41,20 @@ jobs:
             -Dorg.gradle.jvmargs="-Xmx3g"
 
       - name: Collect APKs
-        if: success()
         run: |
           mkdir -p repo/apk
           find . -name "*.apk" \
             -not -path "*/intermediates/*" \
             -exec cp {} repo/apk/ \;
+
+          echo "APKs collected:"
           ls -la repo/apk/
 
-      - name: Copy and fix index
-        if: success()
+      - name: Prepare index
         run: |
           sed 's/"apk":"/"apk":"apk\//g' index.min.json > repo/index.min.json
 
       - name: Create repo.json
-        if: success()
         run: |
           cat <<EOF > repo/repo.json
           {
@@ -66,7 +65,6 @@ jobs:
           EOF
 
       - name: Deploy to GitHub Pages
-        if: success()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
