@@ -12,10 +12,8 @@ A full-featured Mihon/Tachiyomi extension repository with **84** real manga sour
 3. Tap **+** and paste:
 
 ```
-https://YOUR_GITHUB_USERNAME.github.io/mihon-full-repo/index.min.json
+https://afanjurl.github.io/mihon-full-repo/index.min.json
 ```
-
-> Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username after deploying.
 
 ---
 
@@ -45,7 +43,7 @@ GitHub Actions will automatically:
 
 Your `index.min.json` URL will be:
 ```
-https://YOUR_USERNAME.github.io/mihon-full-repo/index.min.json
+https://afanjurl.github.io/mihon-full-repo/index.min.json
 ```
 
 ---
