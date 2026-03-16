@@ -49,11 +49,10 @@ jobs:
             -exec cp {} repo/apk/ \;
           ls -la repo/apk/
 
-      - name: Update index with base URL
+      - name: Copy and fix index
         if: success()
         run: |
-          sed -i 's/"apk":"\([^"]*\)"/"apk":"https:\/\/raw.githubusercontent.com\/AfanJurl\/mihon-full-repo\/repo\/apk\/\1"/g' index.min.json
-          cp index.min.json repo/
+          sed 's/"apk":"/"apk":"apk\//g' index.min.json > repo/index.min.json
 
       - name: Deploy to GitHub Pages
         if: success()
@@ -61,4 +60,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./repo
+          publish_branch: repo
           force_orphan: true
