@@ -53,11 +53,19 @@ jobs:
         if: success()
         run: |
           sed 's/"apk":"/"apk":"apk\//g' index.min.json > repo/index.min.json
-
-      - name: Deploy to GitHub Pages
-        if: success()
-        uses: peaceiris/actions-gh-pages@v3
-        with:
+      - name: Create repo.json
+  run: |
+    cat <<EOF > repo/repo.json
+    {
+      "name": "AfanJurl Mihon Repo",
+      "website": "https://github.com/AfanJurl/mihon-full-repo",
+      "description": "Mihon extension repository"
+    }
+    EOF
+        - name: Deploy to GitHub Pages
+         if: success()
+         uses: peaceiris/actions-gh-pages@v3
+         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./repo
           publish_branch: repo
