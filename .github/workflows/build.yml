@@ -49,9 +49,11 @@ jobs:
             -exec cp {} repo/apk/ \;
           ls -la repo/apk/
 
-      - name: Copy index
+      - name: Update index with base URL
         if: success()
-        run: cp index.min.json repo/
+        run: |
+          sed -i 's/"apk":"\([^"]*\)"/"apk":"https:\/\/raw.githubusercontent.com\/AfanJurl\/mihon-full-repo\/repo\/apk\/\1"/g' index.min.json
+          cp index.min.json repo/
 
       - name: Deploy to GitHub Pages
         if: success()
